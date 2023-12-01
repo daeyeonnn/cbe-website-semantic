@@ -1,0 +1,17 @@
+/* CORALES, Dion Mark N. | BSIT-2C */
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    font-family: Helvetica;
+}
+
+header{
+    background-image: url("../images/banner.jpg");
+    color: white;
+    display: block;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
