@@ -21,30 +21,54 @@ header{
     padding: 50px;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 nav{
     float: left;
     display: block;
     background-color: gray;
     width: 20%;
     height: 100%;
-    padding: 15px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav li{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 section{
     float: right;
     width: 80%;
     display: block;
-    padding: 15px;
+    padding: 10px;
     background-color: black;
     color: white;
+}
+
+article{
+    margin: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-color: purple;
 }
 
 article figure{
     display: inline-block;
 }
 
-figure img{
+figure img, figure figcaption{
     width: 100%;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 footer{
@@ -52,4 +76,20 @@ footer{
     width: 100%;
     padding: 20px;
     background-color: white;
+}
+
+figure{
+    margin: 10px;
+    background-color: gold;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+article button{
+    background-color: black;
+    padding: 10px;
+    float: right;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
 }
