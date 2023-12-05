@@ -54,15 +54,15 @@ section{
 }
 
 article{
-    margin: 15px;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 25px;
     background-color: purple;
 }
 
 article figure{
     display: inline-block;
+
 }
 
 figure img, figure figcaption{
@@ -79,13 +79,15 @@ footer{
 }
 
 figure{
-    margin: 10px;
+    display: flex;
     background-color: gold;
     padding: 20px;
     border-radius: 15px;
+    margin: 10px;
+    align-items: center;
 }
 
-article button{
+figcaption button{
     background-color: black;
     padding: 10px;
     float: right;
@@ -93,3 +95,14 @@ article button{
     border-radius: 10px;
     border: 0px;
 }
+
+figcaption button:hover{
+    background-color: purple;
+    color: yellow;
+    
+}
+
+tr td{
+    padding: 20px;
+}
+
