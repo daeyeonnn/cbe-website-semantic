@@ -2,11 +2,11 @@
 *{
     box-sizing: border-box;
     margin: auto 0;
-    font-family: Arial;
+    font-family: Tahoma;
 }
 
 body{
-    background-color: gray;
+    background-color: #a5d94c;
 }
 
 header{
@@ -28,20 +28,34 @@ nav a{
 nav{
     float: left;
     display: block;
-    background-color: gray;
+    background-color: #a5d94c;
     width: 20%;
     height: 100%;
     padding: 20px;
+    color: #883B87;
 }
 
-nav ul {
-    list-style-type: none;
+.navitems a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #883B87;
+}
+
+.navitems li{
+    padding: 15px;
+}
+
+.navitems li:hover{    
+    color: #a5d94c;
+    background-color: #883B87;
+    border-radius: 15px;
+}
+
+
+nav ul{
     padding: 0px;
-}
-
-nav li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 section{
@@ -49,7 +63,7 @@ section{
     width: 80%;
     display: block;
     padding: 10px;
-    background-color: black;
+    background-color: #530382;
     color: white;
 }
 
@@ -57,7 +71,7 @@ article{
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 25px;
-    background-color: purple;
+    background-color: #a5d94c;
 }
 
 article figure{
@@ -72,19 +86,18 @@ figure img, figure figcaption{
 }
 
 footer{
-    display: flex;
+    display: inline-block;
     width: 100%;
     padding: 20px;
-    background-color: white;
+    background-color: #18181C;
+    color: white;
 }
 
 figure{
     display: flex;
-    background-color: gold;
     padding: 20px;
     border-radius: 15px;
     margin: 10px;
-    align-items: center;
 }
 
 figcaption button{
@@ -94,6 +107,7 @@ figcaption button{
     color: white;
     border-radius: 10px;
     border: 0px;
+    font-weight: bold;
 }
 
 figcaption button:hover{
@@ -104,5 +118,7 @@ figcaption button:hover{
 
 tr td{
     padding: 20px;
+    align-items: center;
+    font-size: 13px;
 }
 
