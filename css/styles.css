@@ -68,7 +68,7 @@ section{
 }
 
 article{
-    padding: 30px;
+    padding: 25px;
     margin-bottom: 10px;
     border-radius: 25px;
     background-color: #a5d94c;
@@ -76,7 +76,6 @@ article{
 
 article figure{
     display: inline-block;
-
 }
 
 figure img, figure figcaption{
@@ -94,16 +93,16 @@ footer{
 }
 
 figure{
-    display: flex;
-    padding: 20px;
+    padding: 5px;
     border-radius: 15px;
     margin: 10px;
 }
 
-figcaption button{
-    background-color: black;
-    padding: 10px;
+button{
     float: right;
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
     color: white;
     border-radius: 10px;
     border: 0px;
@@ -120,5 +119,6 @@ tr td{
     padding: 20px;
     align-items: center;
     font-size: 13px;
+
 }
 
