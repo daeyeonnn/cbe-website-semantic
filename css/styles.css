@@ -2,123 +2,88 @@
 *{
     box-sizing: border-box;
     margin: auto 0;
-    font-family: Tahoma;
+    font-family: 'Helvetica';
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 17px;
+}
+
+body a{
+    text-decoration: none;
 }
 
 body{
-    background-color: #a5d94c;
+    background-color: #A367B1;
 }
 
 header{
     background-image: url("../images/banner.jpg");
+    text-shadow: 3px 3px 10px #2D2727;
     color: white;
     display: block;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
-    padding: 50px;
-}
-
-nav a{
-    text-decoration: none;
+    height: 610px;
+    padding: 25px;
 }
 
 nav{
     float: left;
     display: block;
-    background-color: #a5d94c;
+    background-color: #A367B1;
     width: 20%;
     height: 100%;
     padding: 20px;
-    color: #883B87;
-}
 
-.navitems a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #883B87;
 }
-
-.navitems li{
-    padding: 15px;
-}
-
-.navitems li:hover{    
-    color: #a5d94c;
-    background-color: #883B87;
-    border-radius: 15px;
-}
-
 
 nav ul{
-    padding: 0px;
     list-style-type: none;
-    text-decoration: none;
+    padding: 3%;
+}
+
+nav ul li{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 8%;
+}
+
+nav ul li:hover{
+    background-color: black;
 }
 
 section{
     float: right;
     width: 80%;
     display: block;
-    padding: 10px;
-    background-color: #530382;
+    background-color: #5D3587;
     color: white;
 }
 
 article{
-    padding: 25px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    background-color: #a5d94c;
-}
+    display: block;
+    padding: 2%;
 
-article figure{
-    display: inline-block;
-}
-
-figure img, figure figcaption{
-    width: 100%;
-    padding: 5px;
-    border-radius: 20px;
 }
 
 footer{
-    display: inline-block;
+    float: inline-start;
+    background-color:  #2D2727;
     width: 100%;
-    padding: 20px;
-    background-color: #18181C;
-    color: white;
+    padding: 3%;
 }
-
-figure{
-    padding: 5px;
-    border-radius: 15px;
-    margin: 10px;
-}
-
-button{
-    float: right;
-    background-color: black;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-    border: 0px;
-    font-weight: bold;
-}
-
-figcaption button:hover{
-    background-color: purple;
-    color: yellow;
-    
-}
-
-tr td{
-    padding: 20px;
-    align-items: center;
-    font-size: 13px;
-
-}
-
