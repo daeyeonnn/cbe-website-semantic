@@ -1,8 +1,32 @@
-figcaption.articleContent{
-    font-size: 10px;
-    background-color: black;
+.grid-container{
+    display: grid; 
+    grid-template-columns: auto auto;
+    padding: 10px;
 }
 
-article.newsItem{
-    margin-bottom: 30px;
+.grid-item{
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "a a" 
+    "b b"
+    "b b";
 }
+.grid-item figure{
+    align-self: start;
+    grid-area: a;
+}
+
+.grid-item figcaption{
+    grid-area: b;
+    margin: 0;
+    align-self: end;
+}
+
+.grid-item figcaption a button{
+    margin-right: 5px;
+}
+
+
+
+

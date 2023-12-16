@@ -66,6 +66,7 @@ nav ul{
 }
 
 nav ul li{
+    font-size: 19px;
     margin-top: 4%;
     margin-bottom: 4%;
     padding: 8%;
@@ -91,6 +92,7 @@ section{
     display: block;
     background-color: #392467;
     color: white;
+    
 }
 
 body section > h2{
@@ -119,14 +121,16 @@ figure{
     margin-bottom: 2%;
 }
 
-.fit-image{
+ article .fit-image{
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-
-section .fit-image{
+body section > .fit-image{
     border-radius: 0px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 footer{
@@ -167,3 +171,4 @@ footer table td, footer p{
 footer h3{
     font-size: 19px;
 }
+
