@@ -7,10 +7,13 @@
 
 h1{
     font-size: 45px;
+    
 }
 
 h2{
     font-size: 35px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 h3{
@@ -19,20 +22,24 @@ h3{
 
 p{
     font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
 }
 
 body a{
     text-decoration: none;
+    color: lightgray;
 }
 
 body{
-    background-color: #A367B1;
+    background-color: #917fb3 ;
 }
 
 header{
     background-image: url("../images/banner.jpg");
-    text-shadow: 3px 3px 10px #2D2727;
-    color: white;
+    text-shadow: 3px 3px 90px #c7b4c0;
+    color: #fde2f3;
     display: block;
     text-align: center;
     background-position: center;
@@ -45,12 +52,13 @@ header{
 nav{
     float: left;
     display: block;
-    background-color: #A367B1;
+    background-color: #917fb3 ;
     width: 20%;
     height: 100%;
     padding: 20px;
 
 }
+
 
 nav ul{
     list-style-type: none;
@@ -61,24 +69,64 @@ nav ul li{
     margin-top: 4%;
     margin-bottom: 4%;
     padding: 8%;
+    color: #2a2f4f;
 }
 
 nav ul li:hover{
-    background-color: black;
+    color: #fde2f3;
+    background-color: #2a2f4f;
+    box-shadow: 0px 0px 40px #403164 ;
+    border-radius: 15px;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #fde2f3;
+}
+
+body section img{
+    border-radius: 15px;
 }
 
 section{
     float: right;
     width: 80%;
     display: block;
-    background-color: #5D3587;
+    background-color: #392467;
     color: white;
 }
 
+body section > h2{
+    text-align: center;
+    margin: 20px;
+}
+
+table tr td{
+    padding: 10px;
+}
+
 article{
+    border-radius: 20px;
+    margin: 1.5%;
     display: block;
     padding: 2%;
+    box-shadow: 0px 0px 15px black;
+    background-color: #5d3587;
+    color: #ffd1e3;
+}
 
+figure{
+    border-radius: 15px;
+    padding: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section .fit-image{
+    border-radius: 0px;
 }
 
 footer{
@@ -86,4 +134,36 @@ footer{
     background-color:  #2D2727;
     width: 100%;
     padding: 3%;
+}
+
+section button{
+    border: 0;
+    font-size: 17px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 10px;
+    background-color: #a367b1;
+    color: #ffd1e3;
+    box-shadow: 0px 0px 40px #392467 ;
+}
+
+section button:hover{
+    color: #392467;
+    text-shadow: 0px 0px 20px #5d3587;
+    font-weight: bold;
+    background-color: #ffd1e3;
+    box-shadow: 0px 0px 30px #ffd1e3;
+}
+
+footer table td, footer p{
+    color: lightgray;
+    font-size: 14px;
+}
+
+footer h3{
+    font-size: 19px;
 }
