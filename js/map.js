@@ -1,3 +1,4 @@
+/* CORALES, Dion Mark N. / BSIT-2C */
 const map = L.map('map', {
   center: [16.479332, 121.144366],
   zoom: 20
