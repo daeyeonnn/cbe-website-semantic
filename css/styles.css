@@ -152,10 +152,25 @@ section button{
     border-radius: 10px;
     background-color: #a367b1;
     color: #ffd1e3;
+    box-shadow: 0px 0px 40px #392467;
+}
+
+article input[type="submit"], article input[type="reset"]{
+    border: 0;
+    font-size: 19px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 10px;
+    background-color: #a367b1;
+    color: #ffd1e3;
     box-shadow: 0px 0px 40px #392467 ;
 }
 
-section button:hover{
+section button:hover, article input[type="submit"]:hover, article input[type="reset"]:hover{
     color: #392467;
     text-shadow: 0px 0px 20px #5d3587;
     font-weight: bold;

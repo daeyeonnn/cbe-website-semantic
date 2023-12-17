@@ -27,6 +27,72 @@
     margin-right: 5px;
 }
 
+.fit-section1{
+    display: flex;
+    height: 101vh;
+}
 
+.fit-section2{
+    display: flex;
+    height: 201vh;
+}
+
+.userform{
+    padding: 5%;
+    width: 90%;
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.userform input[type="image"]{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #a367b1;
+}
+
+.userform select, .userform input[type="text"], .userform input[type="password"], .userform input[type="tel"], .userform textarea{
+    width: 100%;
+    padding: 2%;
+    font-size: 19px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #ffd1e3;
+}
+
+.userform input[type="range"]{
+    width: 100%;
+}
+
+.userform input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.userform input[type="radio"] label{
+    font-size: 50px;
+}
+
+.userform select:focus, .userform input[type="text"]:focus, .userform input[type="password"]:focus, .userform input[type="tel"]:focus, .userform textarea:focus{
+    background-color: #a367b1;
+    color: #fddfea;
+}
+
+.userform label{
+    font-size: 19px;
+
+}
+
+.userform form table tr td{
+    padding: 2.5%;
+}
+
+.userform input[type="submit"]{
+    float: right;
+}
+
+.userform table{
+    width: 100%;
+}
 
 
