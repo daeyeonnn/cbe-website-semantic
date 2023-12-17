@@ -95,4 +95,17 @@
     width: 100%;
 }
 
+.newspage{
+    height: 100%;
+    padding: 3%;
+}
+
+.newspage img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.newspage h1{
+    margin-top: 20px;
+}
 
